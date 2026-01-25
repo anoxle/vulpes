@@ -1,0 +1,122 @@
+# Vulpes Discord Bot
+"Enhance Your Discord Experience"
+
+**Document Date:** January 22, 2026  
+**Owner:** anoxle  
+**Official Links:**
+- Website: https://anoxle.github.io/vulpes
+- Authorize: https://anoxle.github.io/vulpes/authorize
+- Top.gg: https://top.gg/bot/1415771326970466354
+- GitHub Repository: https://github.com/anoxle/vulpes
+- Privacy Policy & Terms of Service: https://anoxle.github.io/vulpes/privacy, https://anoxle.github.io/vulpes/terms.
+
+## Overview
+
+Vulpes is a free, multipurpose Discord bot with a unique feature: **it can be used anywhere on Discord**. Users can authorize it to their account via the "Install for User" option on the authorize page, enabling usage in:
+- Direct Messages (DMs)
+- Group chats
+- Servers where the bot is installed
+- Servers where the bot is NOT installed (requires user to have "Use External Apps" permission)
+
+The bot maintains 98% uptime, only going offline for updates (typically 1-2 minutes, usually 1 minute). Updates and patches are deployed regularly and quickly.
+
+## Current Statistics
+- **29 users** as of January 25, 2026 (2-3 are managers)
+- **Most popular commands:** `/act bite` and `/8ball`
+
+## Features
+
+### Server-Specific Commands
+
+While Vulpes can be used anywhere, two commands are server-only:
+
+1. **`/addemoji`** - Add custom emojis to a server
+   - Accepts emoji name, image upload, URL, or emoji.gg ID
+   - To use emoji.gg: Go to https://emoji.gg/emoji/{emoji}, click "Add using the bot", copy the "Emoji ID" under "Slash Command"
+
+2. **`/clone`** - Save and clone emojis across servers (useful for non-Nitro users)
+   - **Save mode:** `/clone mode=save emoji=:cat_dancing:` - Saves emoji to a secret GitHub gist with heavily obfuscated user IDs and emoji IDs
+   - **Add mode:** `/clone mode=add name={custom_name}` - Adds saved emoji to your server
+   - **Tutorial mode:** Explains the feature
+   - Obfuscated gist data is automatically removed after 25 minutes
+
+**Note:** As of January 22, 2026, the bot does NOT include moderation commands. Basic moderation features (`/kick`, `/ban`, `/timeout`, etc.) may be added in the future, but Vulpes is not a moderation-focused bot.
+
+### Roleplay & Reaction Commands (25+ commands)
+
+The bot offers over 25 roleplay actions and reactions using anime GIFs from nekos.best:
+- **Action commands:** `/act bite` (most popular), and 20+ more
+- **Reaction commands:** `/react angry`, and more
+- All commands send embeds with relevant anime GIFs
+
+### Context Menu Commands (CMC)
+
+Access these by right-clicking messages/users (or holding on mobile, or clicking three dots):
+
+#### Message CMCs (4 total)
+
+1. **"Translate (En)"** - Translates messages to English using Google Translator
+   - Works almost instantly (unless message is very long)
+   - Ephemeral response (only you can see it)
+   - Supports embeds and buttons - replicates messages perfectly including all embed elements
+
+2. **"Translate (Personal)"** - Translates to your preferred language
+   - Requires setting language first with `/language set`
+   - Language preferences are securely stored and obfuscated
+   - Ephemeral response for privacy
+   - Supports embeds and buttons with full replication
+
+3. **"GIF it"** - Converts images to GIF format
+   - Makes images starrable in Discord's GIF list
+   - Supports both attachments and PNG URLs
+   - Ephemeral response
+
+4. **"Recognize Song"** - Identifies songs using Shazam
+   - Works with audio files (MP3) and voice messages with background music
+   - Non-ephemeral response
+
+#### User CMCs (2 total)
+
+1. **"View Avatar"** - Displays user's avatar in original quality (PNG/image)
+2. **"View Banner"** - Displays user's banner in original quality
+
+Both send non-ephemeral embeds.
+
+### Other Notable Commands
+
+- **`/8ball`** - Magic 8-ball responses (highly popular)
+- **`/language set`** - Set personal language preference for translation features
+
+## Pricing & Access
+
+**100% FREE** - All features are completely free with premium-like functionality. Rate limits are reasonable and low.
+
+## Technical Details
+
+- **Source Code:** Close-sourced (likely permanently)
+- **GitHub Repository:** Contains only web assets (HTML, CSS, JS) for the landing page (GitHub Pages)
+- **Uptime:** 98%
+- **Update Frequency:** Regular with fast patches
+
+## Bot History
+
+*Note: This section is copy-pasted from README.md at github.com/anoxle/vulpes*
+
+"Vulpes was previously a bot that had over 300-400+ users. It was taken down because of the Shapes Inc., ban that happened in early May 2025. At a user's request, we had added an AI chatbot (an "Shapes") powered by Shapes Inc.; subsequently, that platform was banned, and Discord took down thousands of bots that had Shapes, including ours. We regret adding it to this day. We tried to appeal but were denied, and on September 12, 2025, we created another Discord bot called Hades94 with the same focus of Vulpes. Aka, making commands that users can use anywhere (including DMs, Groups, etc.). and it gained 10 or so users, and in awhile we decided to rebrand Hades94 back to Vulpes and as of writing this ( Sunday, January 25, 2026 )., we currently have 29 users (2-3 are managers) that has Vulpes authorized to their Discord account."
+
+## Important Links
+
+**Current Bot (Use This):**
+- Top.gg Listing: https://top.gg/bot/1415771326970466354
+- Authorization Page: https://anoxle.github.io/vulpes/authorize (click "Install for User" or "Add to Server")
+
+**Do NOT use:** https://top.gg/bot/1207724790635561001 - This is the old banned Vulpes bot
+
+**Coming Soon:** Additional bot listing websites
+
+## Additional Resources
+
+For extra information, see the full README.md at:
+- https://github.com/anoxle/vulpes/blob/main/README.md
+
+(This was written also by an AI for other AIs)
