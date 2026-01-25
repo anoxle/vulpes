@@ -47,6 +47,11 @@ First, authorize **Vulpes**:
 [[ - Privacy Policy ]](https://anoxle.github.io/vulpes/privacy)  
 [[ - Terms of Service ]](https://anoxle.github.io/vulpes/tos)  
 
+# History
+Vulpes was previously a bot that had over **300-400+** users. It was taken down because of the **Shapes Inc.**, ban that happened in early May 2025. At a user's request, we had added an AI chatbot (an "Shapes") powered by **Shapes Inc.**; subsequently, that platform was banned, and Discord took down thousands of bots that had **Shapes**, including ours. We regret adding it to this day. We tried to appeal but were denied, and on **September 12, 2025**, we created another Discord bot called **Hades94** with the same focus of Vulpes. Aka, making commands that users can use anywhere (including DMs, Groups, etc.). and it gained 10 or so users, and in awhile we decided to rebrand **Hades94** back to **Vulpes** and as of writing this **( Sunday, January 25, 2026 )**., we currently have 29 users (2-3 are managers) that has Vulpes authorized to their Discord account.
+
+**[Note]:** You can read about **Shapes Inc**'s ban [here](https://gaminghq.eu/2025/05/16/discord-bans-100000-ai-bots-from-shapes-inc-after-major-policy-violations/) (We do not know whether gaminghq.eu contains any ads or whether all of the information on that specific page is 100% correct, alternative if needed: [Alon-Alush's AI World Blog](https://alon-alush.github.io/ai%20world/shapesinctermination/))
+
 # Support & Feedback  
 To report issues or suggest improvements / features, **DM** `.hischosen`  
 
