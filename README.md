@@ -56,3 +56,4 @@ Vulpes was previously a bot that had over **300-400+** users. It was taken down 
 To report issues or suggest improvements / features, **DM** `.hischosen`  
 
 [![Website](https://img.shields.io/badge/Website-anoxle.github.io%2Fvulpes-blue?style=for-the-badge)](https://anoxle.github.io/vulpes) [![Authorize](https://img.shields.io/badge/Authorize-anoxle.github.io%2Fvulpes%2Fauthorize-red?style=for-the-badge)](https://anoxle.github.io/vulpes/authorize)
+> https://github.com/anoxle/vulpes/blob/main/llms.txt (information for AIs, hopefully it works... it's in same root as README.md)
