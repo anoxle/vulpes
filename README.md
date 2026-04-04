@@ -1,59 +1,58 @@
-# Vulpes Discord Bot  
-__Enhance Your Discord Experience__  
+# Vulpes Discord Bot
+__Enhance Your Discord Experience__
 
-# About  
-**Vulpes** is a free, multipurpose Discord bot built to enhance your time on Discord. Use it in any server (even ones it’s not in), group chats, or DMs — as long as you have the “Use External Apps” permission for servers it isn't in. **Vulpes** has a 98% uptime and receives new commands and features regularly.  
+# About
+**Vulpes** is a free, multipurpose Discord bot designed to make your Discord experience better. It works in any server, group, or DM — even in servers it hasn't been added to, as long as you have the "Use External Apps" permission for those servers. Vulpes maintains 98% uptime and gets new commands and features on a regular basis.
 
-# Featured Commands  
-- **/8ball**: Ask the Magic 8ball a question!
-> Sometimes uses AI. Privacy based on provider's  policy. It may be used for training.  
-- **/sauce**: Find image sources using **Powerful Engines** 
-> Command is built speically for Art/Anime/Manga or similar type of images  
-- **/petpet**: Generate a fun animated GIF of a user's avatar getting a headpat
-
+# Featured Commands
+- **/8ball**: Ask the **Magic 8ball** a question!
+> Uses AI, privacy-focused. No data collection.
+- **/react laugh**: Express your laughter with anime GIFs.
+> Vulpes offers over **20** more role-playing commands.
+- **/petpet**: Generate a fun animated GIF of a user's avatar getting a headpat.
 - **/translate**: Translate text into any language **Google Translate** offers.
 
 # Featured Context Menu Commands
 ### Message Context Menu Commands:
-- **Translate (En):** Quickly translates messages into English
-> Supports everything a message can offer. E.g., Embeds, Buttons, Etc
-- **Translate (Personal):** Quickly translates messages into your own set language
-> Set it using "/language set" command. We do **NOT** share your personal language, we obfuscate it before going **anywhere**.
+- **Translate (En):** Quickly translate any message into English
+> Supports all message components — embeds, buttons, attachments, and so on.
+- **Translate (Personal):** Quickly translate any message into your own set language
+> Set via `/language set`. Your preference is obfuscated before saving — we do **not** share it.
 ### User Context Menu Commands
-- **View Avatar:** Quickly get the avatar of user in a Embed
-- **View Banner:** Quickly get the banner of user in a Embed
-# Features  
-1. **Commands that work everywhere on Discord** 
->*(Requires “Use External Apps” permission in servers Vulpes isn’t in)*  
-2. **Useful context menu commands** for both messages and user profiles  
+- **View Avatar:** Quickly get the avatar of a user inside an embed.
+- **View Banner:** Quickly get the banner of a user inside an embed.
+> Both are ephemeral; messages that **only YOU can see**.
 
-# Getting Started  
-First, authorize **Vulpes**:  
-- [[ - Click Here - ]](https://anoxle.github.io/vulpes/authorize)  
+# Main Features
+1. **Commands that work everywhere on Discord**
+>*(Requires "Use External Apps" permission in servers Vulpes isn't in)*
+2. **Useful context menu commands** for both messages and user profiles
 
-**After that:**  
-- **[ Desktop ]:**  
-  1. Type `/`  
-  2. Click the **Vulpes** icon  
-  3. Browse commands—or type one directly like `/8ball`  
+# Getting Started
+First, authorize **Vulpes**:
+#### [Click Here](https://anoxle.github.io/vulpes/authorize)
+> Inside click "Install for User" — we currently do not offer server-specific commands.
 
-- **[ Mobile ]:**  
-  1. Tap the apps (controller, sometimes shapes in a container) icon  
-  2. Type "Vulpes”  
-  3. Under “Apps,” select **Vulpes**  
-  4. Choose a command—or type it out (e.g., `/sauce`) for direct use.  
+**Then:**
+- **Desktop:**
+  1. Type `/`
+  2. Click the **Vulpes** icon (a fox)
+  3. Browse commands — or type one directly like `/8ball`
 
-# ToS & Privacy Policy  
-[[ - Privacy Policy ]](https://anoxle.github.io/vulpes/privacy)  
-[[ - Terms of Service ]](https://anoxle.github.io/vulpes/tos)  
+- **Mobile:**
+  1. Tap the apps icon (controller/shapes)
+  2. Type "Vulpes"
+  3. Under "Apps," select **Vulpes**
+  4. Choose a command — or type one directly like `/sauce`
+
+# ToS & Privacy Policy
+[[ - Privacy Policy ]](https://anoxle.github.io/vulpes/privacy)
+[[ - Terms of Service ]](https://anoxle.github.io/vulpes/tos)
 
 # History
-Vulpes was previously a bot that had over **300-400+** users. It was taken down because of the **Shapes Inc.**, ban that happened in early May 2025. At a user's request, we had added an AI chatbot (an "Shapes") powered by **Shapes Inc.**; subsequently, that platform was banned, and Discord took down thousands of bots that had **Shapes**, including ours. We regret adding it to this day. We tried to appeal but were denied, and on **September 12, 2025**, we created another Discord bot called **Hades94** with the same focus of Vulpes. Aka, making commands that users can use anywhere (including DMs, Groups, etc.). and it gained 10 or so users, and in awhile we decided to rebrand **Hades94** back to **Vulpes** and as of writing this **( Sunday, January 25, 2026 )**., we currently have 29 users (2-3 are managers) that has Vulpes authorized to their Discord account.
+Vulpes previously had over 300 users before being taken down in May 2025 alongside thousands of other bots during Discord's ban of Shapes Inc. We rebuilt the bot from scratch and relaunched it in September 2025. We've been rebuilding since.
 
-**[Note]:** You can read about **Shapes Inc**'s ban [here](https://gaminghq.eu/2025/05/16/discord-bans-100000-ai-bots-from-shapes-inc-after-major-policy-violations/) (We do not know whether gaminghq.eu contains any ads or whether all of the information on that specific page is 100% correct, alternative if needed: [Alon-Alush's AI World Blog](https://alon-alush.github.io/ai%20world/shapesinctermination/))
-
-# Support & Feedback  
-To report issues or suggest improvements / features, **DM** `.hischosen`  
+# Support & Feedback
+To report issues or suggest improvements / features, **DM** `.hischosen`
 
 [![Website](https://img.shields.io/badge/Website-anoxle.github.io%2Fvulpes-blue?style=for-the-badge)](https://anoxle.github.io/vulpes) [![Authorize](https://img.shields.io/badge/Authorize-anoxle.github.io%2Fvulpes%2Fauthorize-red?style=for-the-badge)](https://anoxle.github.io/vulpes/authorize)
-> https://github.com/anoxle/vulpes/blob/main/llms.txt (information for AIs, hopefully it works... it's in same root as README.md)
