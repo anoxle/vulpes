@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f232e;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 0);
+    background-size: clamp(15px, 2vw, 25px) clamp(15px, 2vw, 25px);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1f232e;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(114, 93, 230, 0.3);
+    border-radius: 20px;
+}
+
+.intro-box {
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px 36px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    animation: fadeBox 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeBox {
+    from {
+        opacity: 0;
+        transform: scale(0.97) translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.icon-img {
+    width: 48px;
+    height: 48px;
+   margin-bottom: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-txt {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #725de6, #9b62da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    animation: revealUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+}
+
+.sub-text {
+    color: #a0a0a0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: revealUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.25s forwards;
+}
+
+.btn-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    animation: revealUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.38s forwards;
+}
+
+@keyframes revealUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+        filter: blur(4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+.nav-btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 260px;
+    padding: 13px 24px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.nav-btn:hover {
+    background: white;
+    color: #1f232e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.nav-btn--dead {
+    opacity: 0.4;
+    pointer-events: none;
+    cursor: default;
+}
+
+.toggle-wrap {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#open-new-tab {
+    display: none;
+}
+
+label[for="open-new-tab"] {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 0.9rem;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+label[for="open-new-tab"]::before {
+    content: "";
+   display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(255,255,255,0.25);
+    margin-right: 10px;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+#open-new-tab:checked + label::before {
+    content: "✓";
+    color: #725de6;
+    background: rgba(114,93,230,0.18);
+    border-color: rgba(114,93,230,0.5);
+}
+
+.footer-note {
+    text-align: center;
+    color: #777;
+    font-size: 0.8rem;
+    margin-top: 24px;
+}
+
+.footer-note a {
+    color: #9b8aef;
+    text-decoration: none;
+}
+
+.footer-note a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .intro-box {
+        padding: 32px 20px;
+    }
+    .nav-btn {
+        max-width: 100%;
+    }
+}

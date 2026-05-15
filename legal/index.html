@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vulpes – Legal Agreements</title><link rel="stylesheet" href="five.css"><link rel="icon" href="https://anoxle.github.io/icon.png"></head><body><script>function initPage() {
+            const card = document.createElement('div');
+            card.className = 'intro-box';
+
+            const baseHTML = `<img src="https://anoxle.github.io/icon.png" alt="Anoxle" class="icon-img">
+            <h1 class="head-txt">Vulpes Legal Agreements</h1>
+            <p class="sub-text">By using Vulpes you agree to both of our Terms of Service and Privacy Policy found at the links below.</p>
+            <div class="btn-wrap">
+                <a href="terms" class="nav-btn">Terms of Service</a>
+                <a href="privacy" class="nav-btn">Privacy Policy</a>
+                <a href="https://anoxle.github.io/projects/vulpes/license?umd=main_site" target="_blank" class="nav-btn nav-btn--dead">Anoxle PL v3.2</a>
+            </div>`;
+            const togglePlaceholder = `<div class="toggle-wrap" id="toggle-area"></div>`;
+            const fullMarkup = baseHTML + togglePlaceholder;
+
+            card.innerHTML = fullMarkup;
+            document.body.appendChild(card);
+
+            const bottomNote = document.createElement('p');
+            bottomNote.className = 'footer-note';
+            bottomNote.innerHTML = 'Vulpes is an multipurpose Discord bot made by Anoxle; <a href="https://anoxle.github.io/vulpes/">Learn More</a>';
+            document.body.appendChild(bottomNote);
+
+            const toggleContainer = document.getElementById('toggle-area');
+            const toggleCheckbox = document.createElement('input');
+            toggleCheckbox.type = 'checkbox';
+            toggleCheckbox.id = 'open-new-tab';
+            toggleCheckbox.checked = true;
+
+            const toggleLabel = document.createElement('label');
+            toggleLabel.setAttribute('for', 'open-new-tab');
+            toggleLabel.textContent = 'Open in New Tab';
+
+            toggleContainer.appendChild(toggleCheckbox);
+            toggleContainer.appendChild(toggleLabel);
+
+            const allLinks = card.querySelectorAll('.nav-btn');
+
+            const updateLinkTargets = () => {
+                const shouldBlank = document.querySelector('#open-new-tab').checked;
+                for (let i = 0; i < allLinks.length; i++) {
+                    const link = allLinks[i];
+                    if (link.getAttribute('href') === 'https://anoxle.github.io/projects/vulpes/license?umd=main_site') {
+                        link.target = '_blank';
+                    } else {
+                        link.target = shouldBlank ? '_blank' : '_self';
+                    }
+                }
+            };
+
+            const handleToggleChange = () => updateLinkTargets();
+
+            toggleCheckbox.addEventListener('change', handleToggleChange);
+
+            updateLinkTargets();
+
+            allLinks.forEach((link, idx) => {
+                link.addEventListener('click', (e) => {
+                });
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPage);
+        } else {
+            initPage();
+        }</script></body></html>
