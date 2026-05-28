@@ -46,10 +46,11 @@ First, authorize **Vulpes**:
   4. Choose a command — or type one directly like `/sauce`
 
 # ToS & Privacy Policy
-[[ - Privacy Policy ]](https://anoxle.github.io/vulpes/legal/privacy)
-[[ - Terms of Service ]](https://anoxle.github.io/vulpes/legal/terms)
+[[ - Privacy Policy - ]](https://anoxle.github.io/vulpes/legal/privacy)
+[[ - Terms of Service - ]](https://anoxle.github.io/vulpes/legal/terms)
 
 # Support & Feedback
-To report issues or suggest improvements / features, **DM** `.hischosen`
+Join our Discord server to suggest features and report issues
+[[ - Community Server - ]](http://anoxle.github.io/vulpes/discord)
 
 [![Website](https://img.shields.io/badge/Website-anoxle.github.io%2Fvulpes-blue?style=for-the-badge)](https://anoxle.github.io/vulpes) [![Authorize](https://img.shields.io/badge/Authorize-anoxle.github.io%2Fvulpes%2Fauthorize-red?style=for-the-badge)](https://anoxle.github.io/vulpes/authorize)
