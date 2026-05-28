@@ -46,11 +46,8 @@ First, authorize **Vulpes**:
   4. Choose a command — or type one directly like `/sauce`
 
 # ToS & Privacy Policy
-[[ - Privacy Policy ]](https://anoxle.github.io/vulpes/privacy)
-[[ - Terms of Service ]](https://anoxle.github.io/vulpes/tos)
-
-# History
-Vulpes previously had over 300 users before being taken down in May 2025 alongside thousands of other bots during Discord's ban of Shapes Inc. We rebuilt the bot from scratch and relaunched it in September 2025. We've been rebuilding since.
+[[ - Privacy Policy ]](https://anoxle.github.io/vulpes/legal/privacy)
+[[ - Terms of Service ]](https://anoxle.github.io/vulpes/legal/terms)
 
 # Support & Feedback
 To report issues or suggest improvements / features, **DM** `.hischosen`
