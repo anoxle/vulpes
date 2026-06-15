@@ -1,3 +1,5 @@
+[Official Website – Vulpes Discord Bot](https://anoxle.github.io/vulpes/)
+
 # Vulpes Discord Bot
 __Enhance Your Discord Experience__
 
