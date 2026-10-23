@@ -3,26 +3,21 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://anoxle.github.io/vulpes/</loc>
-    <lastmod>2026-05-20</lastmod>
-    <priority>1.0</priority>
+    <lastmod>2026-10-23</lastmod>
     <image:image>
       <image:loc>https://anoxle.github.io/vulpes/icon.png</image:loc>
-      <image:title>Vulpes - Enhance Your Discord Experience</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://anoxle.github.io/vulpes/authorize.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <priority>0.8</priority>
+    <loc>https://anoxle.github.io/vulpes/get-started</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
-    <loc>https://anoxle.github.io/vulpes/legal/privacy.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <priority>0.5</priority>
+    <loc>https://anoxle.github.io/vulpes/terms</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
-    <loc>https://anoxle.github.io/vulpes/legal/terms.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <priority>0.5</priority>
+    <loc>https://anoxle.github.io/vulpes/privacy</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
 </urlset>

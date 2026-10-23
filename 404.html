@@ -1,42 +1,104 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Anoxle"><title>Vulpes — Page Not Found (404)</title><link rel="icon" type="image/png" href="https://anoxle.github.io/vulpes/icon.png"><link rel="apple-touch-icon" href="https://anoxle.github.io/vulpes/icon.png"><style>body{background:#0a0a0a;margin:0;min-height:100vh}.sr-only{position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.redirect-overlay{z-index:9999;position:fixed;top:20px;left:50%;transform:translateX(-50%);background:rgba(255,255,255,.12);backdrop-filter:blur(9.5px);color:#fff;padding:12px 24px;border-radius:8px;font-family:system-ui,-apple-system,sans-serif;font-size:14px;opacity:0;transition:opacity .32s ease;pointer-events:none}.redirect-overlay.visible{opacity:1}</style></head><body><h1 class="sr-only">404 — This page doesn't exist</h1><div class="redirect-overlay" id="redirectOverlay">Redirecting to the correct page…</div><script>(function () {
-      function resolveTarget(rawPath) {
-        let p = rawPath;
-        for (let i = p.length - 1; i >= 0; i--) {
-          if (p[i] !== '/') break;
-          p = p.substring(0, i);
-        }
-        return p;
-      }
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Anoxle"><title>Vulpes — Page Not Found (404)</title><link rel="icon" type="image/png" href="/temporary-pBLI1/icon.png"><link rel="apple-touch-icon" href="/temporary-pBLI1/icon.png"><style>body {
+  background: #0a0a0a;
+  margin: 0;
+  min-height: 100vh;
+}
 
-      const siteBaseUrl = "https://anoxle.github.io/vulpes";
-      let redirectMap = {
-        "/vulpes/legal/tos": siteBaseUrl + "/legal/terms",
-        "/vulpes/terms": siteBaseUrl + "/legal/terms",
-        "/vulpes/privacy": siteBaseUrl + "/legal/privacy",
-        "/vulpes/tos": siteBaseUrl + "/legal/terms"
-      };
+.sr-only {
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
 
-      redirectMap["/vulpes/terms-of-service"] = siteBaseUrl + "/legal/terms";
-        redirectMap["/vulpes/privacy-policy"] = siteBaseUrl + "/legal/privacy";
-      redirectMap["/vulpes/legal/privacy-policy"] = siteBaseUrl + "/legal/privacy";
-      redirectMap["/vulpes/legal/terms-of-service"] = siteBaseUrl + "/legal/terms";
-      redirectMap["/vulpes/add"] = siteBaseUrl + "/authorize";
-      redirectMap["/vulpes/invite"] = siteBaseUrl + "/authorize";
-      
-      redirectMap["/vulpes/support"] = siteBaseUrl + "/discord";
-       redirectMap["/vulpes/community"] = siteBaseUrl + "/discord";
-      redirectMap["/vulpes/discord-server"] = siteBaseUrl + "/discord";
-      redirectMap["/vulpes/server"] = siteBaseUrl + "/discord";
-      redirectMap["/vulpes/support-server"] = siteBaseUrl + "/discord";
+.redirect-overlay {
+  z-index: 9999;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(9.5px);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.32s ease;
+  pointer-events: none;
+}
 
-      const path = resolveTarget(window.location.pathname);
-      const tgt = redirectMap[path];
+.redirect-overlay.visible {
+  opacity: 1;
+}</style></head><body><h1 class="sr-only">404 — This page doesn't exist</h1><div class="redirect-overlay" id="redirectOverlay">Redirecting to the correct page…</div><script>(function () {
+  const base = "/temporary-pBLI1";
 
-      if (tgt) {
-        const ovl = document.getElementById("redirectOverlay");
-        ovl.classList.add("visible");
-        setTimeout(() => {
-          window.location.replace(tgt);
-        }, 815);
-      }
-    })();</script><script>window.NF_HOME="https://anoxle.github.io/vulpes/"</script><script src="https://anoxle.github.io/404.js"></script></body></html>
+  function resolveTarget(rawPath) {
+    let p = rawPath;
+    for (let i = p.length - 1; i >= 0; i--) {
+      if (p[i] !== '/') break;
+      p = p.substring(0, i);
+    }
+    return p;
+  }
+
+  const redirectMap = {
+    "/legal": "/terms",
+    "/legal/terms": "/terms",
+    "/legal/tos": "/terms",
+    "/legal/terms-of-service": "/terms",
+    "/legal/privacy": "/privacy",
+    "/legal/privacy-policy": "/privacy",
+    "/tos": "/terms",
+    "/terms-of-service": "/terms",
+    "/privacy-policy": "/privacy",
+    "/authorize": "/get-started",
+    "/add": "/get-started",
+    "/invite": "/get-started",
+    "/support": "/discord",
+    "/community": "/discord",
+    "/discord-server": "/discord",
+    "/server": "/discord",
+    "/support-server": "/discord"
+  };
+
+  const full = window.location.pathname;
+  const relative = full.startsWith(base) ? full.slice(base.length) : full;
+  const path = resolveTarget(relative);
+
+  if (path === "/roblox-launch" || path === "/launch-roblox") {
+    const file = base + "/assets/roblox-launch.html";
+    fetch(file)
+      .then(function (res) {
+        if (!res.ok) throw new Error("missing");
+        return res.text();
+      })
+      .then(function (html) {
+        const title = new DOMParser().parseFromString(html, "text/html").title;
+        document.open();
+        document.write(html);
+        document.close();
+        if (title) document.title = title;
+      })
+      .catch(function () {
+        window.location.replace(file + window.location.search);
+      });
+    return;
+  }
+
+  const tgt = redirectMap[path];
+
+  if (tgt) {
+    const ovl = document.getElementById("redirectOverlay");
+    ovl.classList.add("visible");
+    setTimeout(function () {
+      window.location.replace(base + tgt);
+    }, 815);
+  }
+})();</script><script>window.NF_HOME = "/temporary-pBLI1/"</script><script src="https://anoxle.github.io/404.js"></script></body></html>

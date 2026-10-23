@@ -1,58 +1,81 @@
-[Official Website – Vulpes Discord Bot](https://anoxle.github.io/vulpes/)
+[Official Page – Vulpes Discord Bot](https://anoxle.github.io/vulpes/)
 
 # Vulpes Discord Bot
-__Enhance Your Discord Experience__
+*Make more out of Discord.*
 
-# About
-**Vulpes** is a free, multipurpose Discord bot designed to make your Discord experience better. It works in any server, group, or DM — even in servers it hasn't been added to, as long as you have the "Use External Apps" permission for those servers. Vulpes maintains 98% uptime and gets new commands and features on a regular basis.
+## About
 
-# Featured Commands
-- **/8ball**: Ask the **Magic 8ball** a question!
-> Uses AI, privacy-focused. No data collection.
-- **/react laugh**: Express your laughter with anime GIFs.
-> Vulpes offers over **20** more role-playing commands.
-- **/petpet**: Generate a fun animated GIF of a user's avatar getting a headpat.
-- **/translate**: Translate text into any language **Google Translate** offers.
+**Vulpes** is a free, multipurpose Discord bot with commands for fun, convenience, and everyday use. It works in servers, group chats, and DMs — even in servers where it hasn't been added, provided you have the **Use External Apps** permission.
 
-# Featured Context Menu Commands
-### Message Context Menu Commands:
-- **Translate (En):** Quickly translate any message into English
-> Supports all message components — embeds, buttons, attachments, and so on.
-- **Translate (Personal):** Quickly translate any message into your own set language
-> Set via `/language set`. Your preference is obfuscated before saving — we do **not** share it.
-### User Context Menu Commands
-- **View Avatar:** Quickly get the avatar of a user inside an embed.
-- **View Banner:** Quickly get the banner of a user inside an embed.
-> Both are ephemeral; messages that **only YOU can see**.
+Vulpes maintains **98% uptime** and regularly receives new commands and features.
 
-# Main Features
-1. **Commands that work everywhere on Discord**
->*(Requires "Use External Apps" permission in servers Vulpes isn't in)*
-2. **Useful context menu commands** for both messages and user profiles
+## Featured Commands
 
-# Getting Started
-First, authorize **Vulpes**:
-#### [Click Here](https://anoxle.github.io/vulpes/authorize)
-> Inside click "Install for User" — we currently do not offer server-specific commands.
+- **`/8ball`** — Ask the Magic 8-Ball a question and see what it says.
+  > AI-powered, with privacy in mind. No data collection.
 
-**Then:**
-- **Desktop:**
-  1. Type `/`
-  2. Click the **Vulpes** icon (a fox)
-  3. Browse commands — or type one directly like `/8ball`
+- **`/react laugh`** — React with anime GIFs when words aren't enough.
+  > There are also **20+ other roleplay commands** to try.
 
-- **Mobile:**
-  1. Tap the apps icon (controller/shapes)
-  2. Type "Vulpes"
-  3. Under "Apps," select **Vulpes**
-  4. Choose a command — or type one directly like `/sauce`
+- **`/petpet`** — Turn a user's avatar into an animated GIF of them getting a headpat.
 
-# ToS & Privacy Policy
-[[ - Privacy Policy - ]](https://anoxle.github.io/vulpes/legal/privacy)
-[[ - Terms of Service - ]](https://anoxle.github.io/vulpes/legal/terms)
+- **`/translate`** — Translate text into any language supported by Google Translate.
 
-# Support & Feedback
-Join our Discord server to suggest features and report issues
-[[ - Community Server - ]](http://anoxle.github.io/vulpes/discord)
+## Context Menu Commands
 
-[![Website](https://img.shields.io/badge/Website-anoxle.github.io%2Fvulpes-blue?style=for-the-badge)](https://anoxle.github.io/vulpes) [![Authorize](https://img.shields.io/badge/Authorize-anoxle.github.io%2Fvulpes%2Fauthorize-red?style=for-the-badge)](https://anoxle.github.io/vulpes/authorize)
+### Message Commands
+
+- **Translate (En)** — Translate any message into English with a single click.
+  > Supports message content beyond plain text, including embeds, buttons, and attachments.
+
+- **Translate (Personal)** — Translate a message into your preferred language.
+  > Set your language with `/language set`. Your preference is obfuscated before being saved and isn't shared.
+
+### User Commands
+
+- **View Avatar** — View a user's avatar in an embed.
+- **View Banner** — View a user's profile banner in an embed.
+
+> Both commands use ephemeral responses, so only you can see the results.
+
+## Main Features
+
+- **Works across Discord** — Use Vulpes's commands in servers, group chats, and DMs, even without adding the bot to every server.
+
+- **Message and user context menus** — Access useful commands directly from messages and user profiles, without having to type everything out.
+
+- **Regular updates** — New commands and features are added over time.
+
+## Getting Started
+
+First, [**authorize Vulpes**](https://anoxle.github.io/vulpes/get-started).
+
+> When installing, select **Install for User**. Vulpes currently doesn't offer server-specific commands.
+
+### Desktop
+
+1. Type `/` in the chat.
+2. Click the **Vulpes** icon (the fox).
+3. Browse the available commands or type one directly, such as `/8ball`.
+
+### Mobile
+
+1. Open the apps menu (the controller/shapes icon).
+2. Search for `Vulpes`.
+3. Select **Vulpes** under **Apps**.
+4. Pick a command or type one directly, such as `/sauce`.
+
+## Terms of Service & Privacy Policy
+
+- [Privacy Policy](https://anoxle.github.io/vulpes/privacy)
+- [Terms of Service](https://anoxle.github.io/vulpes/terms)
+
+## Support & Feedback
+
+Have a suggestion, found a bug, or want to see a new command? Join the community server to share feedback and report issues.
+
+[**Community Server**](http://anoxle.github.io/vulpes/discord)
+
+---
+
+[![Website](https://img.shields.io/badge/Website-anoxle.github.io%2Fvulpes-blue?style=for-the-badge)](https://anoxle.github.io/vulpes) [![Authorize](https://img.shields.io/badge/Authorize-anoxle.github.io%2Fvulpes%2Fauthorize-red?style=for-the-badge)](https://anoxle.github.io/vulpes/get-started)
