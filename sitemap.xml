@@ -3,14 +3,14 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://anoxle.github.io/vulpes/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <image:image>
       <image:loc>https://anoxle.github.io/vulpes/icon.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://anoxle.github.io/vulpes/get-started</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://anoxle.github.io/vulpes/terms</loc>
