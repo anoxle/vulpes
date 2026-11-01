@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vulpes Tools - Discord Permissions Calculator &amp; Invite Generator</title><meta name="description" content="Free Discord permissions calculator. Paste any bot invite link or client ID to see its permissions, toggle them by risk level, apply presets, and generate a new invite link instantly."><meta name="keywords" content="Discord permissions calculator, Discord bot invite generator, Discord permissions integer, Discord bot permissions, Discord invite link generator, Discord OAuth2 URL, Vulpes"><meta name="author" content="Anoxle"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"><meta name="application-name" content="Vulpes Tools"><link rel="canonical" href="https://anoxle.github.io/vulpes/tools/discord-permissions-calculator/"><meta property="og:type" content="website"><meta property="og:site_name" content="Vulpes"><meta property="og:locale" content="en_US"><meta property="og:title" content="Discord Permissions Calculator &amp; Invite Generator - Vulpes Tools"><meta property="og:description" content="Decode any Discord bot invite link, toggle permissions by risk level, and generate a fresh invite link. Free and instant."><meta property="og:url" content="https://anoxle.github.io/vulpes/tools/discord-permissions-calculator/"><meta property="og:image" content="https://anoxle.github.io/vulpes/icon.png"><meta property="og:image:alt" content="Vulpes bot icon"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Discord Permissions Calculator &amp; Invite Generator - Vulpes Tools"><meta name="twitter:description" content="Decode any Discord bot invite link, toggle permissions by risk level, and generate a fresh invite link. Free and instant."><meta name="twitter:image" content="https://anoxle.github.io/vulpes/icon.png"><meta name="twitter:image:alt" content="Vulpes bot icon"><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Discord Permissions Calculator & Invite Generator",
+        "url": "https://anoxle.github.io/vulpes/tools/discord-permissions-calculator/",
+        "description": "Decode Discord bot invite links, toggle permissions by risk level, apply presets, and generate a new invite link.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Anoxle", "url": "https://anoxle.github.io/" },
+        "isPartOf": { "@type": "WebSite", "name": "Vulpes", "url": "https://anoxle.github.io/vulpes/" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "home", "item": "https://anoxle.github.io/vulpes/" },
+          { "@type": "ListItem", "position": 2, "name": "tools", "item": "https://anoxle.github.io/vulpes/tools/" },
+          { "@type": "ListItem", "position": 3, "name": "discord-permissions-calculator", "item": "https://anoxle.github.io/vulpes/tools/discord-permissions-calculator/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Discord permissions integer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is a single number that stores every permission a bot asks for. Each permission is one bit, and the invite link carries the sum of them in its permissions parameter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I generate a Discord bot invite link with custom permissions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Paste a bot invite link or client ID, pick a preset or toggle individual permissions, then copy the Updated Invite Link."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Administrator permission safe to grant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Administrator gives a bot every permission and skips all channel overrides. Only grant it to bots you fully trust."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does this tool store my invite links?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Everything is calculated in your browser, and nothing you paste is sent to a server."
+            }
+          }
+        ]
+      }
+    ]
+  }</script><meta name="theme-color" content="#f5bc92"><meta name="color-scheme" content="dark"><link rel="icon" type="image/png" href="https://anoxle.github.io/vulpes/icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><script type="module" crossorigin src="/vulpes/assets/discord-permissions-calculator/javascript.js"></script><link rel="modulepreload" crossorigin href="/vulpes/assets/chunks/modulepreload-polyfill-P2Xu9kJm.js"><link rel="stylesheet" crossorigin href="/vulpes/assets/discord-permissions-calculator/css.css"></head><body><header class="site-header"><div class="site-header-inner"><a href="https://anoxle.github.io/vulpes/" class="brand"><span class="brand-icon"><img src="https://anoxle.github.io/vulpes/icons/icon-nobackground.svg" alt="Vulpes Icon"> </span><span class="brand-name">Vulpes</span></a><nav class="site-nav"><a href="https://anoxle.github.io/vulpes/">Back to Home</a> <a class="nav-cta" href="https://discord.com/oauth2/authorize?client_id=1415771326970466354&integration_type=1&scope=applications.commands" target="_blank" rel="noopener noreferrer">Add to Discord</a></nav></div></header><nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://anoxle.github.io/vulpes/">home</a> <span aria-hidden="true">/</span> <a href="https://anoxle.github.io/vulpes/tools/">tools</a> <span aria-hidden="true">/</span> <a href="https://anoxle.github.io/vulpes/tools/discord-permissions-calculator/" aria-current="page">discord-permissions-calculator</a></nav><main class="page"><div class="container"><div class="card"><h1>Check Bot Permissions</h1><p class="muted">Paste a bot invite link to see its permissions. Click any permission to toggle it.</p><div class="input-row"><input id="invite-input" placeholder="https://discord.com/oauth2/authorize?client_id=...&permissions=...&scope=bot" autocomplete="off" spellcheck="false"> <button class="btn" id="paste-btn">Paste</button></div><p class="preset-label">Or start from a preset</p><div class="preset-row" id="preset-row"></div><div class="error-box hidden" id="error-box"></div></div><div class="card hidden" id="url-card"><h2>Updated Invite Link</h2><div class="url-row"><input id="url-output" readonly="readonly" spellcheck="false"> <button class="btn" id="copy-btn">Copy</button></div></div><div class="card hidden" id="results-card"><div class="results-header"><h2>Permissions</h2><span class="granted-mini" id="granted-count" tabindex="0" data-tooltip="Granted permissions">0/52</span></div><div class="admin-warning hidden" id="admin-warning">⚠️ This invite includes <strong>Administrator</strong>. The bot gets every permission and skips all channel overrides.</div><div class="legend"><span><i style="background:#f5bc92;"></i> Granted</span> <span><i style="background:#44403c;"></i> Not requested</span></div><p class="hint">Click a permission to turn it on or off.</p><input id="perm-search" class="search-input" placeholder="Search permissions..." autocomplete="off" spellcheck="false"><div class="perm-container" id="perm-grid"></div><p class="no-results hidden" id="no-results">No permissions match your search.</p></div></div></main><section class="about" aria-labelledby="about-title"><h2 id="about-title">About this Discord permissions calculator</h2><p>Paste any bot invite link or client ID to see exactly what the bot can do. Toggle permissions, start from a preset, and copy a fresh invite link. Everything runs in your browser.</p><details><summary>What is a Discord permissions integer?</summary><p>It is a single number that stores every permission a bot asks for. Each permission is one bit, and the invite link carries the sum of them in its permissions parameter.</p></details><details><summary>How do I generate a Discord bot invite link with custom permissions?</summary><p>Paste a bot invite link or client ID, pick a preset or toggle individual permissions, then copy the Updated Invite Link.</p></details><details><summary>Is the Administrator permission safe to grant?</summary><p>Administrator gives a bot every permission and skips all channel overrides. Only grant it to bots you fully trust.</p></details><details><summary>Does this tool store my invite links?</summary><p>No. Everything is calculated in your browser, and nothing you paste is sent to a server.</p></details></section><footer class="site-footer"><div class="site-footer-inner"><span>A free tool from Vulpes, the fluffy companion for your Discord. <a class="footer-cta" href="https://discord.com/oauth2/authorize?client_id=1415771326970466354&integration_type=1&scope=applications.commands" target="_blank" rel="noopener noreferrer">Add it to Discord</a> and level up every chat.</span></div></footer></body></html>
